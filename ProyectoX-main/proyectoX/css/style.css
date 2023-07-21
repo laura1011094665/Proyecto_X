@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(75, 89, 152),#fcfbfb);
+}
+.o{
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+
+.image{ 
+    
+    border-radius: 10%;   
+}
+.contenido{
+    padding: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(255, 255, 255), #4b5998);
+    width: 500px;
+    height: 770px;
+}
+.cont{
+    font-size: 22px;
+    display: block;
+    width: 70%;
+    height: 50%;
+    padding: 2px 5px;
+    background: none;
+    background-image: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000000;
+    transition:all 0.10s ease;
+    border-radius:5px;
+    position: relative;
+    left: 70px;
+
+}
+label{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 2px;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+.b {
+    position: relative;
+    left: -140px;
+}
+
+.c{
+    position: relative;
+    left: -120px;
+}
+
+.d{
+    position: relative;
+    left: -150px;
+}
+
+.e{
+    position: relative;
+    left: -130px;
+}
+
+.f{
+    position: relative;
+    left: -170px;
+} 
+input{
+    
+    border: 1px solid black;
+    align-items: center;
+}
+
+input::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(42, 51, 82);
+    position: relative;
+    left: 3px;
+}
+
+.buton{
+    background: none;
+    background-image: none;
+    background-image: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .5s ease;
+
+}
+

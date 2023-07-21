@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(75, 89, 152),#fcfbfb);
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont{
+    width: 400px;
+    height: 600px;
+    background-image:linear-gradient(#fcfbfb, rgb(75, 89, 152));
+    text-align: center;
+}
+input{
+    
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 13px;
+    width: 300px;
+}
+
+input::placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(42, 51, 82);
+    position: relative;
+    left: 3px;
+}
+select{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 13px;
+    width: 300px;
+}
+
+button{
+    background: none;
+    background-image: none;
+    background-image: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .5s ease;
+}
